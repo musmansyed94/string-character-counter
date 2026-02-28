@@ -1,0 +1,8 @@
+# Create the file and add common exclusions
+echo ".vs/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".coverage" >> .gitignore.vs/
+__pycache__/
+*.pyc
+.coverage
