@@ -63,7 +63,7 @@ def count_character_frequency(text: str) -> str:
         frequencies[char] = frequencies.get(char, 0) + 1
 
     return ", ".join(f"{char}:{count}" for char, count in frequencies.items())
-
+```
 ## 🧪 Test Coverage
 The solution includes comprehensive unit tests covering:
 
